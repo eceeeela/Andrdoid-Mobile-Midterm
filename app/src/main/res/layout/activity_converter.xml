@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tv_converter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converter"
+        android:textSize="32sp"
+        android:textColor="@color/dark_purple"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/editFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Feet"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editInches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inches"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONVERT"
+        android:backgroundTint="@color/dark_purple"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inches to Centimeters:\nFeet to Centimeters:"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
